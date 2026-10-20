@@ -12,3 +12,12 @@ app.use(
     extended: true,
   })
 );
+
+// Konfigurasi Database PostgreSQL
+const pool = new Pool({
+  user: 'postgres',
+  host: 'localhost',
+  database: 'mahasiswa',
+  password: 'sidikajaa123', //
+  port: 5432,
+});
