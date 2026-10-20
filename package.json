@@ -16,5 +16,9 @@
   "bugs": {
     "url": "https://github.com/Nur-Sidik/177_ServiceCRUD/issues"
   },
-  "homepage": "https://github.com/Nur-Sidik/177_ServiceCRUD#readme"
+  "homepage": "https://github.com/Nur-Sidik/177_ServiceCRUD#readme",
+  "dependencies": {
+    "express": "^5.3.0",
+    "pg": "^8.23.1"
+  }
 }
